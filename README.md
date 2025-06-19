@@ -8,11 +8,9 @@
 
 - 🌱 I’m currently learning **Spring Boot, Docker, and System Design**
 
-- 👨‍💻 All of my projects are available at [My Portfolio](https://your-portfolio-link.com)
-
 - 💬 Ask me about **Java, Spring Boot, REST APIs, MySQL, and Docker**
 
-- 📫 How to reach me **your.email@example.com**
+- 📫 How to reach me **pavithrajinadray@gmail.com**
 
 - ⚡ Fun fact: **I love solving complex problems and automating boring tasks!**
 

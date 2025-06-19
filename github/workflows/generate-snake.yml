@@ -2,18 +2,18 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # runs every 12 hours
-  workflow_dispatch:       # manual trigger
+    - cron: "0 */12 * * *"  # Every 12 hours
+  workflow_dispatch:        # Manual trigger option
   push:
     branches:
-      - main               # change to 'master' if your default branch is 'master'
+      - main                # Change to 'master' if that's your default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # ✅ allow GitHub Actions to push to output branch
+      contents: write       # ✅ Important: allow pushing to repo
 
     steps:
       - name: Checkout repository
@@ -31,12 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Configure Git identity
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-      - name: Deploy snake to GitHub Pages branch
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

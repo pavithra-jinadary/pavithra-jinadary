@@ -1,7 +1,9 @@
 <h1 align="center">
 <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pavithra+Jinadary!;" />
 </h1>
+<p>
 <img align="right" alt="Coding" width="300" src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fd4tvukbt5mra37cvwklk.gif">
+</p>
 
 <h2 align="left"> Software Developer | Learner | Innovator
   <p> from Sri Lanka </p>

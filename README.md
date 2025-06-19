@@ -2,7 +2,13 @@
 <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pavithra+Jinadary!;" />
 </h1>
 
-<h2 align="center">A passionate software Developer and Tech Enthusiast from Sri Lanka</h2>
+<img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*yBvA5CnEX3Sd4aod.gif">
+
+
+
+<h2 align="center">A software Developer | Learner |  Innovator  
+  <p> from Sri Lanka </p>
+</h2>
 
 <br/>
 

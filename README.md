@@ -6,8 +6,8 @@
 
 
 
-<h2 align="center">A software Developer|Learner|Innovator|  
-  <p> from Sri Lanka </p>
+<h2 align="center">"Empowering Systems Through Code"
+  <p> Software developer from Sri Lanka </p>
 </h2>
 
 <br/>

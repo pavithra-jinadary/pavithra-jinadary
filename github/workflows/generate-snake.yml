@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 12 hours
+    - cron: "0 */6 * * *"  # Every 6 hours
   workflow_dispatch:        # Manual trigger option
   push:
     branches:
@@ -25,9 +25,9 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=%7B%22snake%22%3A%22%23FF0000%22%7D
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.gif?palette=%7B%22snake%22%3A%22%23FF0000%22%7D
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,6 +36,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🐍 Update snake animation"
+          commit_message: "🐍 Update snake animation with red color"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,3 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
-
 <h1 align="center">
 <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pavithra+Jinadary!;" />
 </h1>
@@ -8,25 +6,26 @@
 
 <br/>
 
-<div align="center">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=pavithrajinadary&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
 
-🔭 I’m currently working on  : **Java backend development**
+- 🌱 I’m currently working **Java backend development**
 
-🌱 I’m currently learning : **cloud technologies,DevOps fundamentals.**
+- 🌱 I’m currently learning : **cloud technologies,DevOps fundamentals.**
 
-👯 I’m looking to collaborate on : **open-source projects related to software development and automation**
+- 👯 I’m looking to collaborate on : **open-source projects related to software development and automation**
 
-🤝 I’m looking for help with  : **mastering system design and scalable architecture principles.**
+- 🤝 I’m looking for help with : **mastering system design and scalable architecture principles.**
 
-👨‍💻 All of my projects are available at [https://github.com/pavithra-jinadary](https://github.com/pavithra-jinadary)
+- 👨‍💻 All of my projects are available at [https://github.com/pavithra-jinadary](https://github.com/pavithra-jinadary)
 
-💬 Ask me about **Java, Spring Boot, REST APIs, Docker ,Spring boot microservices and basic frontend frameworks(HTML.CSS,JavaScript,React .js,Next.js)**
+- 💬 Ask me about **Java, Spring Boot, REST APIs, Docker ,Spring boot microservices and basic frontend frameworks(HTML.CSS,JavaScript,React .js,Next.js)**
 
-📫 How to reach me **pavithrajinadary@gmail.com(0751569265)**
+- 📫 How to reach me **pavithrajinadary@gmail.com(0751569265)**
 
-⚡ Fun fact **I love debugging more than Netflix 🍿**
+- ⚡ Fun fact **I love debugging more than Netflix 🍿**
 
-</div>
 
 <div align="center">
 <a href="pavithrajinadary@gmail.com"target="_blank">

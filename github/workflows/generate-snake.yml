@@ -2,24 +2,24 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # runs every 12 hours
+  workflow_dispatch:       # manual trigger
   push:
     branches:
-      - main  # Make sure this is your default branch
+      - main               # change to 'master' if your default branch is 'master'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Needed for pushing to the output branch
+      contents: write  # ✅ allow GitHub Actions to push to output branch
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake animation
+      - name: Generate Snake files
         uses: Platane/snk@v3
         id: snake
         with:
@@ -36,7 +36,7 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: Deploy to output branch
+      - name: Deploy snake to GitHub Pages branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

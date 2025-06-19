@@ -3,9 +3,9 @@
 </h1>
 <img align="right" alt="Coding" width="300" src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fd4tvukbt5mra37cvwklk.gif">
 
-<h1 align="left"> Software Developer | Learner | Innovator
+<h2 align="left"> Software Developer | Learner | Innovator
   <p> from Sri Lanka </p>
-</h1>
+</h2>
 
 <br/>
 

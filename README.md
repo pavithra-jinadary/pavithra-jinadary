@@ -6,7 +6,7 @@
 
 
 
-<h2 align="center">A software Developer | Learner |  Innovator  
+<h2 align="center">A software Developer|Learner|Innovator|  
   <p> from Sri Lanka </p>
 </h2>
 

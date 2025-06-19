@@ -2,24 +2,24 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # recommended: every 6 hours
-  workflow_dispatch:      # manual trigger
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
-      - main              # change to 'master' if that's your default branch
+      - main  # Make sure this is your default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write     # ensure workflow has read/write permissions to repo
+      contents: write  # Needed for pushing to the output branch
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Generate snake animations
+      - name: Generate snake animation
         uses: Platane/snk@v3
         id: snake
         with:
@@ -31,15 +31,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Show generated files
+      - name: Configure Git identity
         run: |
-          ls dist
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🐍 Update snake animations"
+          commit_message: "🐍 Update snake animation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

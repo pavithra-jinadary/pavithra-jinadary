@@ -29,15 +29,6 @@
 
 ---
 
-### 📈 GitHub Stats:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pavithrajinadary&show_icons=true&theme=radical" alt="Pavithra's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pavithrajinadary&theme=radical" alt="Streak Stats" width="48%" />
-</p>
-
----
-
 ### 📫 Connect with me:
 
 <p align="left">
